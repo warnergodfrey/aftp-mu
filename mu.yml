@@ -9,3 +9,5 @@ service:
   pipeline:
     source:
       repo: cplee/aftp-mu
+    build:
+      image: aws/codebuild/ubuntu-base:14.04
