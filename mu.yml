@@ -1,0 +1,9 @@
+---
+
+service:
+  port: 80
+  pathPatterns:
+    - /aftp
+  pipeline:
+    source:
+      repo: cplee/aftp-mu

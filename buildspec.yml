@@ -1,0 +1,10 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - echo $CODEBUILD_BUILD_ID >> index.html
+
+artifacts:
+  files:
+    - index.html
