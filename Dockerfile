@@ -1,2 +1,2 @@
-FROM nginx
-COPY index.html /usr/share/nginx/html/aftp/index.html
+FROM nginx:stable-alpine
+COPY index.html /usr/share/nginx/html/index.html
