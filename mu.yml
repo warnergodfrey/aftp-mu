@@ -8,3 +8,6 @@ service:
   healthEndpoint: /
   pathPatterns:
     - /*
+  pipeline:
+    production:
+      disabled: true
