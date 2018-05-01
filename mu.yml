@@ -7,7 +7,6 @@ service:
   port: 80
   healthEndpoint: /
   pathPatterns:
-    - /aftp
     - /aftp/*
   pipeline:
     production:
